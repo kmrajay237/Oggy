@@ -4,9 +4,12 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
+import org.springframework.stereotype.Component;
+
 import com.example.demo.beans.Country;
 import com.example.demo.controllers.AddResponse;
 
+@Component
 public class CountryService {
 
 	static HashMap<Integer, Country> countryIdMap;
